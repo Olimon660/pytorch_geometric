@@ -1,5 +1,6 @@
 from .karate import KarateClub
 from .tu_dataset import TUDataset
+from .procan_dataset import ProCanDataset
 from .gnn_benchmark_dataset import GNNBenchmarkDataset
 from .planetoid import Planetoid
 from .citation_full import CitationFull, CoraFull
@@ -44,6 +45,7 @@ from .webkb import WebKB
 __all__ = [
     'KarateClub',
     'TUDataset',
+    'ProCanDataset',
     'GNNBenchmarkDataset',
     'Planetoid',
     'CitationFull',
